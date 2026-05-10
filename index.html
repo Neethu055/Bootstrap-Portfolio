@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neethu Mariyam Sajan | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(2, 43, 11, 0.7),
+                    rgba(1, 2, 35, 0.7)),
+                url('Images/bg.jpg');
+
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+            color: white;
+        }
+
+        .profile-img {
+            width: 420px;
+            height: 420px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            transition: 0.3s;
+        }
+
+        footer {
+            background: #041932;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Neethu Mariyam Sajan
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+
+        <div class="container">
+
+            <img src="Images/Profile Photo.jpeg" alt="Profile Photo" class="profile-img mb-4">
+
+            <h1 class="display-4 fw-bold">
+                Hey, I'm Neethu Mariyam Sajan
+            </h1>
+
+            <p class="lead">
+                Data Analyst | Power BI Developer | Web Developer
+            </p>
+
+            <a href="#projects" class="btn btn-primary btn-lg mt-3">
+
+                View Projects
+            </a>
+
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                About Me
+            </h2>
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-7">
+
+                    <div class="card shadow p-4 border-0">
+
+                        <p>
+                        <p>
+                            Hi, I’m Neethu Mariyam Sajan, a Computer Science Engineering graduate
+                            with a strong interest in Data Analytics, Business Intelligence,
+                            and Web Development. I have hands-on experience working with
+                            SQL, Excel, Power BI, and Tableau to analyze data, create
+                            interactive dashboards, and generate meaningful business insights.
+
+
+                        </p>
+
+                        <p>
+                            During my internship and academic projects, I worked on
+                            data validation, reporting, and visualization tasks that helped
+                            improve my analytical thinking and problem-solving abilities.
+                            I enjoy transforming raw data into clear and actionable insights
+                            that support better decision-making.
+                        </p>
+
+                        <p>
+                            Along with analytics, I am also passionate about web development
+                            and continuously improving my technical skills in modern tools
+                            and technologies. I am eager to learn, adapt to new challenges,
+                            and contribute effectively to a dynamic organization.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 text-center mt-4 mt-lg-0">
+
+                    <img src="Images/Profile Photo.jpeg" class="img-fluid" alt="Profile">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Skills
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 shadow border-0">
+
+                        <div class="card-body text-center">
+
+                            <i class="bi bi-bar-chart-fill display-4 text-primary"></i>
+
+                            <h5 class="mt-3">
+                                Data Analytics
+                            </h5>
+
+                            <p>
+                                SQL, Excel, Power BI, Tableau,
+                                Data Cleaning, KPI Tracking
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 shadow border-0">
+
+                        <div class="card-body text-center">
+
+                            <i class="bi bi-pie-chart-fill display-4 text-success"></i>
+
+                            <h5 class="mt-3">
+                                Visualization
+                            </h5>
+
+                            <p>
+                                Interactive Dashboards,
+                                Reporting, Data Storytelling
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 shadow border-0">
+
+                        <div class="card-body text-center">
+
+                            <i class="bi bi-code-slash display-4 text-danger"></i>
+
+                            <h5 class="mt-3">
+                                Web Development
+                            </h5>
+
+                            <p>
+                                HTML, CSS, Bootstrap,
+                                JavaScript
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 shadow border-0">
+
+                        <div class="card-body text-center">
+
+                            <i class="bi bi-tools display-4 text-warning"></i>
+
+                            <h5 class="mt-3">
+                                Tools
+                            </h5>
+
+                            <p>
+                                Git, MySQL, Jupyter Notebook,
+                                Google Colab
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+
+ <!-- Projects Section -->
+
+<section id="projects" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5 fw-bold">
+            Projects
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- Project 1 -->
+
+            <div class="col-12 col-lg-6">
+
+                <div class="card p-4 shadow border-0 h-100">
+
+                    <h4 class="text-center mb-4">
+                        E-Commerce Sales & Customer Behavior Analysis
+                    </h4>
+
+                    <p>
+                        • Analyzed e-commerce data using SQL, Excel,
+                        Power BI, and Tableau to uncover trends in sales,
+                        customer behavior, delivery performance,
+                        and payment methods.
+                    </p>
+
+                    <p>
+                        • Cleaned and transformed 10K+ records using
+                        Power Query and Excel, ensuring data accuracy
+                        and consistency.
+                    </p>
+
+                    <p>
+                        • Designed interactive Power BI and Tableau dashboards
+                        to track sales and operational KPIs,
+                        improving reporting efficiency.
+                    </p>
+
+                    <p>
+                        • Performed data validation and reconciliation
+                        to identify inconsistencies and improve data quality.
+                    </p>
+
+                    <p>
+                        • Generated visual reports to support
+                        business decision-making and performance tracking.
+                    </p>
+
+                    <h6 class="mt-3">
+                        Dashboard Preview
+                    </h6>
+
+                    <img src="Images/tableau.jpeg"
+                         class="img-fluid rounded project-img"
+                         alt="E-Commerce Dashboard">
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="col-12 col-lg-6">
+
+                <div class="card p-4 shadow border-0 h-100">
+
+                    <h4 class="text-center mb-4">
+                        Healthcare Operations Analytics
+                    </h4>
+
+                    <p>
+                        • Developed interactive dashboards to monitor
+                        hospital operational KPIs and patient service performance.
+                    </p>
+
+                    <p>
+                        • Analyzed healthcare data to identify trends
+                        in admissions, resource utilization,
+                        and workflow efficiency.
+                    </p>
+
+                    <p>
+                        • Used SQL and Excel for data extraction,
+                        cleaning, transformation, and validation.
+                    </p>
+
+                    <p>
+                        • Built Tableau dashboards for reporting,
+                        operational analysis, and performance monitoring.
+                    </p>
+
+                    <p>
+                        • Assisted in improving reporting accuracy
+                        and supporting data-driven decision-making.
+                    </p>
+
+                    <h6 class="mt-3">
+                        Dashboard Preview
+                    </h6>
+
+                    <img src="Images/Tableau_2.jpeg"
+                         class="img-fluid rounded project-img"
+                         alt="Healthcare Dashboard">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <section id="contact" class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Contact Me
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="card shadow border-0 p-4">
+
+                        <form>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Name
+                                </label>
+
+                                <input type="text" class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Email
+                                </label>
+
+                                <input type="email" class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Subject
+                                </label>
+
+                                <input type="text" class="form-control">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea rows="5" class="form-control"></textarea>
+
+                            </div>
+
+                            <button class="btn btn-dark w-100">
+                                Submit
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+
+        <p class="mb-0">
+            © 2026 Neethu Mariyam Sajan |
+            Data Analyst Portfolio
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
